@@ -1,0 +1,9 @@
+{
+  "name": "js",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "bootstrap-icons": "^1.10.3",
+    "font-awesome": "^4.7.0"
+  }
+}

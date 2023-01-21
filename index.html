@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Generator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="password-container">
+        <input class="passwordInput" type="text" disabled />
+        <i class="bi bi-clipboard copy-icon"></i>
+      </div>
+
+      <div class="range-container">
+        <input
+          class="rangeInput"
+          type="range"
+          max="16"
+          min="5"
+          step="1"
+          value="8"
+        />
+        <span class="range-number">8</span>
+      </div>
+
+      <button class="generateBtn">Generate Password</button>
+    </div>
+
+    <footer class="footer">
+      <h5>
+        by
+        <a href="https://github.com/francastany" target="_blank">
+          francastany
+        </a>
+        <i class="bi bi-github"></i>
+      </h5>
+    </footer>
+  </body>
+</html>
